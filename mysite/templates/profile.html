@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block body %}
+    <img src="{{auth0_user.extra_data.picture}}" alt="image">
+    <span> {{user_data}} </span>
+{% endblock body %}

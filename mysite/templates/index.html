@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block body %}
+    <h1>Welcome to my site!</h1>
+    {% if user.is_authenticated %}
+        <p>You are logged in.</p>
+    {% endif %}
+{% endblock body %}
